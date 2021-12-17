@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    display: inline;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 30px;
+    background-color: #2F4F4F;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 9999;
+    top: 0px;
+    height: 60px;
+    padding: 5px;
+}
+
+nav .logo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    padding: 1%;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a {
+    color: aliceblue;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+body {
+    background-color: #C0C0C0;
+    font-family: 'nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    /* padding: 20px; */
+    overflow: auto;
+}
+
+content {
+    float: left;
+    width: 100%;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+h2,
+h3 {
+    color: black'
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    /* border-radius: 5px; */
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.card-header {
+    background-color: white;
+    box-shadow: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 170px;
+    margin: 10px;
+}
+
+.card-header:hover {
+    transform: scale(1.03);
+}
+
+.card-box {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+    width: 180px;
+    height: 270px;
+    margin: 23px;
+}
+
+.card-box h2 {
+    font-size: 15px;
+}
+
+.card-image {
+    height: 129px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.card-box h2 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.container section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.card-box:hover {
+    transform: scale(1.03);
+}
+
+aside {
+    float: right;
+    width: 100%;
+    padding-left: 0px;
+}
+
+.profile img {
+    width: 150px;
+}
+
+.profile header {
+    text-align: center;
+}
+
+footer {
+    margin-top: 10px;
+    padding: 20px;
+    color: white;
+    background-color:  #808080;
+    font-weight: bold;
+    width: 100%;
+}
+
+.container-foot {
+    display: flex;
+}
+
+.container-foot .left-box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.left-box {
+    flex-basis: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.right-box {
+    flex-basis: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.box-content img {
+    height: 20px;
+}
+
+.profile-box {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    margin: 10px;
+    padding: 0px 0px;
+}
